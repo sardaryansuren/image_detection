@@ -1,16 +1,26 @@
 # image_processing
 
-A new Flutter project.
+Flutter app for **face detection** and **document scanning** using **Google ML Kit**.
 
-## Getting Started
+## Features
+- Camera & gallery image input  
+- Live face and text detection  
+- Face processing  
+- Document scan → PDF  
+- Text extraction  
+- Local history (SQLite)
 
-This project is a starting point for a Flutter application.
+Dependencies
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+get: ^4.6.6
+image_picker: ^1.1.2
+google_mlkit_face_detection: ^0.13.1
+google_mlkit_text_recognition: ^0.15.0
+sqflite: ^2.4.1
+path: ^1.9.0
+path_provider: ^2.1.4
+image: ^4.2.0
+pdf: ^3.11.0
+open_filex: ^4.7.0
+intl: ^0.19.0
+camera: ^0.11.2
